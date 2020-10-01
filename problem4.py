@@ -25,9 +25,11 @@ m = (A + B + C) - (h + s)
 #   x**2 + y**2 = h**2
 p = (s**2) + (m**2)
 k = math.sqrt(p)
-if k == h:
+j = h * 1.02
+o = j - h
+if k > o:
     print("that is a right triangle")
-elif k < h:
+elif k < o:
     print("that is an acute triangle")
-elif k > h:
+elif k == o:
     print("that is an obtuse triangle")
