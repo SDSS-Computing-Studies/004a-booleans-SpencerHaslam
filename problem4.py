@@ -23,3 +23,11 @@ h = max(A, B, C)
 s = min (A, B, C)
 m = (A + B + C) - (h + s)
 #   x**2 + y**2 = h**2
+p = (s**2) + (m**2)
+k = math.sqrt(p)
+if k == h:
+    print("that is a right triangle")
+elif k > h:
+    print("that is an acute triangle")
+elif k < h:
+    print("that is an obtuse triangle")
