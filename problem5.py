@@ -15,3 +15,31 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+import math
+a = input("Enter a number")
+b = input("Enter a second number")
+c = input("Enter a third number")
+A = float(a)
+B = float(b)
+C = float(c)
+sol = B**2 - 4 * A * C
+try:
+    sq = math.sqrt(sol)
+    print(sq)
+except:
+    print("You can't square root a negative")
+    exit()
+
+fsq = float(sq)
+print(fsq)
+print(sol)
+# sol = discriminant
+# fsq = sqrt(discrinant) as calculated in line 27
+i = int(fsq)
+f = float(fsq)
+
+if f == i:
+    print("the equation can be factored")
+
+else:
+    print("the equation can not be factored")
