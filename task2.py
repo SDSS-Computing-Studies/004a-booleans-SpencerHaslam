@@ -13,11 +13,11 @@
 num = input("Enter a number")
 nom = float(num)
 if nom < 0:
-    print("The number is smaller than 0")
+    print("negative")
 
 elif nom == 0:
-    print("The number is 0")
+    print("zero")
 
 
 else:
-    print("The number is larger than 0")
+    print("positive")
