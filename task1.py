@@ -13,8 +13,11 @@
 # "The number is 100"
 num = input("Enter a number")
 nom = float(num)
-if nom <= 100:
+if nom < 100:
     print("The number is larger than 100")
 
 elif nom > 100:
     print("The number is smaller than 100")
+
+elif nom == 100:
+    print("The number is 100")
