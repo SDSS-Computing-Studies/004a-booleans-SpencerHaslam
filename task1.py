@@ -16,5 +16,5 @@ nom = float(num)
 if nom < 100:
     print("The number is larger than 100")
 
-else:
+elif nom > 100:
     print("The number is smaller than 100")
