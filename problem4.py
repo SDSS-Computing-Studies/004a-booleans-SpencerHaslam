@@ -28,8 +28,8 @@ k = math.sqrt(p)
 j = h * 1.02
 o = j - h
 if k > o:
-    print("that is a right triangle")
+    print("that is an obtuse triangle")
 elif k < o:
     print("that is an acute triangle")
 elif k == o:
-    print("that is an obtuse triangle")
+    print("that is a right triangle")
